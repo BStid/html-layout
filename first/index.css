@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.headerBox{
+    background-color: rgb(36,36,36);
+    height: 100px;
+    width: 100vw;
+    z-index: 20;
+}
+.leftBody, .rightBody{
+    background-color: gainsboro;
+    height:90vh;
+    width: 120px;
+    display: inline-block;
+    z-index: 15;
+    position: absolute;
+}
+.middleBody{
+    background-color: white;
+    height:85vh;
+    width: 90vw;
+    display: inline-block;
+    
+}
+
+
+.footerBox{
+    background-color: rgb(36,36,36);
+    height: 118px;
+    width: 100%;
+    z-index: 10;
+    display: inline-block;
+    position: absolute;
+    margin-top: 510px;
+    
+}
