@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.row{
+    
+}
+
+#one{
+    height:15vh;
+    background-color: rgb(202, 195, 195);
+}
+#two{
+    height: 25vh;
+    background-color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    /* text-align: center; */
+    /* margin: auto; */
+    padding: 35px;
+}
+#three{
+    height: 15vh;
+    background-color: rgb(58, 121, 180)
+}
+#four{
+    height:15vh;
+    background-color: aqua;
+}
+#five{
+    height:15vh;
+    background-color: rgb(153, 230, 102)
+}
+#six{
+    height: 15vh;
+    background-color: yellow;
+}
+#miniBox{
+    height:75px;
+    width:75px;
+    margin: 12px;
+    background-color:rgb(58, 121, 180)
+}
